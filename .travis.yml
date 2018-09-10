@@ -2,7 +2,7 @@ dist: trusty
 sudo: required
 language: cpp
 compiler: clang
-
+script: mkdir build && cd build && cmake .. && make -j4 && make test
 matrix:
   include:
   # works on Precise and Trusty
