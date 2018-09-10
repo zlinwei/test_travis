@@ -12,7 +12,7 @@ matrix:
       apt:
         sources:
         - ubuntu-toolchain-r-test
-        - llvm-toolchain-precise-6.0
+        - llvm-toolchain-precise
         - george-edison55-precise-backports
         packages:
         - clang-6.0
