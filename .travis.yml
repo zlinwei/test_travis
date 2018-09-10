@@ -15,7 +15,7 @@ matrix:
         - llvm-toolchain-precise
         - george-edison55-precise-backports
         packages:
-        - clang-6.0
+        - clang
         - cmake-data
         - cmake
     env:
